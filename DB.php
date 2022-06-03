@@ -19,6 +19,7 @@ Class DB{
         $password="Ciel17092000",
         $table="")
     {
+        error_reporting(E_ERROR | E_PARSE);
         $this->host = $host;
         $this->port = $port;
         $this->dbName = $dbName;
